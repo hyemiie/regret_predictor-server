@@ -1,0 +1,30 @@
+{
+  "model_type": "Gradient Boosting",
+  "feature_columns": [
+    "category_encoded",
+    "price",
+    "hour_of_day",
+    "day_encoded",
+    "is_weekend",
+    "is_late_night",
+    "time_on_page_seconds",
+    "is_impulse_buy",
+    "num_page_visits",
+    "was_on_sale",
+    "price_category_encoded",
+    "decision_speed_encoded"
+  ],
+  "metrics": {
+    "accuracy": 0.715,
+    "precision": 0.6395348837209303,
+    "recall": 0.6790123456790124,
+    "f1": 0.6586826347305389,
+    "roc_auc": 0.7427118995746446
+  },
+  "category_mapping": {
+    "0": "impulse",
+    "1": "moderate",
+    "2": "researched"
+  },
+  "needs_scaling": false
+}

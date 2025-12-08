@@ -1,0 +1,38 @@
+{
+  "late_night_return_multiplier": 2.5,
+  "weekend_return_multiplier": 1.4,
+  "sale_return_multiplier": 1.7,
+  "impulse_return_multiplier": 2.2,
+  "category_base_return_rates": {
+    "shoes": 0.45,
+    "clothing": 0.42,
+    "electronics": 0.2,
+    "books": 0.08,
+    "home_goods": 0.25,
+    "beauty": 0.3,
+    "sports": 0.28,
+    "toys": 0.18
+  },
+  "price_tier_multipliers": {
+    "budget": [
+      0,
+      50,
+      0.8
+    ],
+    "mid": [
+      50,
+      200,
+      1.0
+    ],
+    "premium": [
+      200,
+      500,
+      1.4
+    ],
+    "luxury": [
+      500,
+      2000,
+      1.6
+    ]
+  }
+}
