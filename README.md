@@ -27,7 +27,7 @@ The system predicts regret in real time and provides actionable feedback to user
 - **Model selection:** Trained Logistic Regression, Random Forest, and Gradient Boosting. The system automatically picks the model with the highest F1-score.
 -  **Features used:** The model considers product and user info like `category_encoded`, `price`, `hour_of_day`, `day_encoded`, `is_weekend`, `is_late_night`, `time_on_page_seconds`, `is_impulse_buy`, `num_page_visits`, `was_on_sale`, `price_category_encoded`, and `decision_speed_encoded`.  
 - **Preprocessing:** Numeric features are scaled if the model requires it. Categorical features are label-encoded. I also derive features like `decision_speed` and `price_category` from the raw data.  
-- **Evaluation:** I measure performance using Accuracy, Precision, Recall, F1-score, and ROC AUC.  
+- **Evaluation:** I measured performance using Accuracy, Precision, Recall, F1-score, and ROC AUC.  
 - **Saved files:** The trained model (`regret_model.pkl`), the scaler if needed (`scaler.pkl`), and metadata (`model_metadata.json`) are stored for easy predictions.
 
 ---
